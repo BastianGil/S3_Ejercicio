@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
-    android:background="#2974b3"
+    android:background="#1066ae"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
     tools:context=".MainActivity"
@@ -18,7 +18,7 @@
         android:contentDescription="TODO" />
 
     <EditText
-        android:background="#003c81"
+        android:background="@drawable/bordes_gg"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:padding="10dp"
@@ -33,7 +33,7 @@
         android:inputType="" />
 
     <EditText
-        android:background="#003c81"
+        android:background="@drawable/bordes_gg"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:padding="10dp"
@@ -65,7 +65,7 @@
         android:layout_marginRight="70dp"
         android:layout_marginLeft="70dp"
         android:layout_gravity="center_horizontal"
-        android:background="#003c81"
+        android:background="@drawable/bordes_gg"
         android:text="@string/calcular"
         android:textColor="#8cffffff"
         android:id="@+id/btn_boton"
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
-        android:background="#003c81"
+        android:background="@drawable/bordes_gg"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:textColor="#ffffff"
